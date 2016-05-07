@@ -1,0 +1,24 @@
+{
+  "name": "msgfy",
+  "version": "0.0.1",
+  "description": "Send regularly messages to your contacts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && jshint *.js"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Joao Stein",
+    "email": "joaosteing@gmail.com",
+    "url": ""
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5"
+  },
+  "jshintConfig": {
+    "node": "true",
+    "mocha": "true"
+  }
+}
