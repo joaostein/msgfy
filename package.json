@@ -4,7 +4,7 @@
   "description": "Send regularly messages to your contacts.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha && jshint *.js"
+    "test": "mocha lib/test.js && jshint *.js && jshint **/*.js"
   },
   "license": "MIT",
   "author": {
@@ -15,10 +15,16 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "jshint": "^2.9.2",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.4"
   },
   "jshintConfig": {
     "node": "true",
     "mocha": "true"
+  },
+  "dependencies": {
+    "cron": "^1.1.0",
+    "moment": "^2.13.0",
+    "osa": "^2.3.0"
   }
 }
